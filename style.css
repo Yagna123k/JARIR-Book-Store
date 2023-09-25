@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+}
+
+#top{
+    background-color: #EFF2F7;
+}
+#social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#icons img{
+    width: 50px;
+    height: 50px;
+}
+#email{
+    height: 50px;
+    width: 400px;
+    border-radius: 25px;
+    border: none;
+}
+#subinput button:active{
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+}
+#subinput button{
+    font-weight: 600;
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#subinput button:hover{
+    background-color: #3C4858;
+    animation: 1s;
+    color: white;
+}
+#news{
+    text-align: left;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    color: #7A8599;
+}
+.info{
+    width: 200px;
+    text-align: left;
+    margin-left: 15px;
+    color: #7A8599;
+}
+.info h3{
+    font-size: 14px;
+}
+.info p{
+    font-size: 12px;
+}
+#services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 160px;
+}
+#sponsors{
+    display: flex;
+    width: max-content;
+    margin: auto;
+}
+#sponsors img{
+    margin: 10px;
+}
+
+#bottom{
+    background-color: #3C4858;
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-left: 200px;
+}
+.box2{
+    margin-top: 30px;
+    text-align: left;
+    width: 250px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-right: 1px solid white;
+}
+#noboder{
+    border: none;
+}
